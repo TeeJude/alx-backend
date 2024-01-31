@@ -36,7 +36,6 @@ class Server:
         Returns:
             (List[List]): a list of list(row) if inputs are within range
             ([]) : an empty list if page and page_size are out of range
-
         """
         assert type(page) == int and type(page_size) == int
         assert page > 0 and page_size > 0
